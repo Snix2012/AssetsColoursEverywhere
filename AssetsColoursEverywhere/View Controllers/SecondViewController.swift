@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  AssetsColoursEverywhere
 //
 //  Created by Claire Roughan on 04/03/2020.
@@ -8,13 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+         view.backgroundColor = UIColor.defaultColor(named: "marketsBackgroundColor")
     }
+    
 
 
 }
-
